@@ -1,23 +1,18 @@
+import TopBar from './components/TopBar'
 import Header from './components/Header'
-import logo from './components/logo.png'
+import Main from './components/Main'
+import Circles from './components/Circles'
+import styleSheet from './style.module.css'
+
 
 function App() {
   
   return (
-   <section>
-    <div className="container">
+    <div className= "container">
+    <TopBar />
     <Header />
-    <h1>hello world</h1>
-    </div>
-   </section>
-  )
-}
-
-function Header() {
-  
-  return (
-    <div className="row">
-      <img src={logo} alt="" />
+    <Main />
+    <Circles />
     </div>
   )
 }
