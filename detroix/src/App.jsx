@@ -1,18 +1,21 @@
-import TopBar from './components/TopBar'
-import Header from './components/Header'
-import Main from './components/Main'
-import Circles from './components/Circles'
-import styleSheet from './style.module.css'
+import TopBar from './components/TopBar/TopBar'
+import Header from './components/Header/Header'
+import MainSec from './components/MainSec/MainSec'
+import Circles from './components/Circles/Circles'
+import Smart from './components/SmartSec/SmartSec'
+import Bottom from './components/Bottom/Bottom'
 
 
 function App() {
   
   return (
-    <div className= "container">
+    <div>
     <TopBar />
     <Header />
-    <Main />
+    <MainSec />
     <Circles />
+    <Smart />
+    <Bottom />
     </div>
   )
 }

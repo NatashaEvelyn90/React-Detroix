@@ -1,0 +1,13 @@
+.linkColor {
+    background-color: #0b0b31;
+    border-radius: 5px;
+}
+
+.bigSize {
+    width: 300px;
+}
+
+.flexyFun {
+    justify-content: space-evenly;
+    align-items: center;
+}

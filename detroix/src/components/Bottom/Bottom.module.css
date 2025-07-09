@@ -1,0 +1,49 @@
+.serviceList {
+    list-style: "⚙️";
+    color: grey;
+}
+
+.dateOne {
+    background-color: #be8542 ;
+    color: white;
+    width: 95px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.dateTwo {
+    background-color: #be6043 ;
+    color: white;
+    width: 95px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight:bolder;
+    text-align: center;
+}
+
+.dateThree {
+    background-color: #bd4260 ;
+    color: white;
+    width: 95px;
+    padding: 15px;
+    border-radius: 12px;
+    font-size: x-large;
+    font-weight:bolder;
+    text-align: center;
+}
+
+p {
+    color: grey;
+}
+
+.sonSec {
+    background-color: #0b0b31;
+}
+
+.sonSec h2,h4 {
+    color: white;
+}
